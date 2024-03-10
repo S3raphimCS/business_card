@@ -1,0 +1,189 @@
+* {
+  padding: 0px;
+  margin: 0px;  
+}
+
+body {
+  margin: 10px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #141616;
+}
+
+header a {
+  margin-top: 3em;
+  text-align: center;
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: top left;
+  align-items: center;
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  margin: 0px;
+}
+
+header a  * {
+  padding-left: 5px;
+}
+
+header h1 {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+div {
+  z-index: -1;
+}
+
+/* #container3D {
+  width: 100vw !important;
+  height: 100vh !important;
+  position: relative;
+  top: 0;
+  left: 0;
+} */
+
+.computer_graphic {
+  min-width: 0;
+  min-height: 0;
+}
+
+.computer {
+  width: 400px;
+  height: 480px;
+}
+
+
+.down-button {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  vertical-align: middle;
+  bottom: 6vw;
+}
+
+.down-button svg,span {
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.down-button span {
+  margin-top: 60px;
+  transform: rotate(270deg);
+  color: #93979d;
+  padding: 15px;
+  white-space: nowrap;
+}
+
+.main-block {
+  width: 98vw;
+  display: flex;
+  flex-direction: row;
+  overflow: visible;
+}
+
+.text-block {
+  width: 50vw;
+  text-align: center;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.visual-block {
+  width: 50vw;
+}
+
+.side-bar {
+  width: 10vw;
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  align-items: center;
+  position: fixed;
+  right: 0vw;
+  top: 10vw;
+  z-index: 3;
+}
+
+.side-nav ul {
+  padding: 0px;
+  width: 60px;
+}
+
+.side-nav li{
+  list-style-type: none;
+  padding: 0px;
+  border: 2px solid;
+  margin: 0px;
+  vertical-align: middle;
+  height: 55px;
+  border-color: aliceblue;
+  color: aliceblue;
+  font-size: 20px;
+  padding: 0px;
+  overflow: auto;
+  position: relative;
+}
+
+li.active a {
+  color: aliceblue !important; 
+}
+
+.side-nav li a {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  vertical-align: middle;
+  color: rgb(152, 155, 158);
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 55px;
+  font-size: 25px;
+}
+
+/* Для тестированияю. На удаление */
+.test-block {
+  height: 700px;
+  width: 500px;
+}
+
+.header-block {
+  width: 100%;
+  height: 150px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#particles-js{ 
+  position:absolute; 
+  width: 100%; 
+  height: 100%; 
+  background-color: #141616; 
+  background-image: url(""); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: 50% 50%; }
+
+
+.s2 {
+  height: 1920px;
+  width: 1080px;
+  }
+
+  .s3 {
+    height: 1920px;
+    width: 1080px;
+    }
+
+    .s4 {
+      height: 1920px;
+      width: 1080px;
+      }  

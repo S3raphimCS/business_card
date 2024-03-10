@@ -1,141 +1,133 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Сайт-визитка</title>
-    <link rel="stylesheet" href="./styles/style.css">
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="./css/style.css" />
 
-    <meta property="og:title" content="Заголовок страницы в OG">
-    <meta property="og:description" content="Описание страницы в OG">
-    <meta property="og:image" content="https://example.com/image.jpg">
-    <meta property="og:url" content="https://example.com/">
+    <!-- scroll animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- fullpage -->
+    <link rel="stylesheel" href="./css/fullpage.min.css">
+
   </head>
   <body>
     <header>
-      <h1>Задонский Сергей</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Домашняя</a></li>
-          <li><a href="catalog.html">Услуги</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Навыки</a></li>
-          <li><a href="">Блог</a></li>
-          <li><a href="">Отзывы</a></li>
-          <li><a href="">Контакты</a></li>
+      <a href="#">
+      <svg width="40" height="23" viewBox="0 0 90 71" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6" y="10" width="35" height="52" fill="#000000"></rect><path d="M0 0V70.338H89.521V0H0ZM19.184 53.481L12.79 47.085L19.184 40.691L25.578 34.2971C25.578 34.2971 21.681 30.4 19.184 27.903C16.687 25.406 12.79 21.509 12.79 21.509L15.987 18.3115L19.184 15.114L28.7755 24.7055L38.367 34.2971L28.7755 43.889L19.184 53.481Z" fill="aliceblue"></path><rect class="blinkit" x="45" y="44" width="29" height="8" fill="#000000"></rect></svg>
+      <h2>S3CS</h2>
+      </a>
+    </header>
+
+    <div class="side-bar">
+      <div>
+      <nav class="side-nav">
+        <ul id="myMenu">
+          <li data-menuanchor="firstPage" class="active"><a href='#firstPage'>1</a></li>
+          <li data-menuanchor="secondPage"><a href='#secondPage'>2</a></li>
+          <li data-menuanchor="thirdPage"><a href='#thirdPage'>3</a></li>
+          <li data-menuanchor="fourthPage"><a href='#fourthPage'>4</a></li>
         </ul>
       </nav>
-    </header>
-    <main>
-
-      <!-- В этой секции будет background с картинкой, height: 907, position: 50% 0px-->
-    <section id="home"> 
-      <!-- Верхний блок, приветствие -->
-      <p>Привет! Меня зовут Сергей, я - Backend Python Developer</p>
-
-      <p>Это - то, что я делаю</p>
-      <p>Высокая способность к самоубучению, глубокий интерес в сфере разработки сайтов позволили мне добиться немалого профессионализма в этом направлении</p>
-
-    </section>
-
-    <section id="services">
-
-      <!-- Тут будут небольшие блоки с иконками и моими хард скиллами -->
-    <div class="to-do-block">
-      <div class="icon-box">
-        <div class="iconbox-icon">
-          <span>Icon</span>
-        </div>
-        <div class="iconbox-text">
-            <h3>
-              Python
-            </h3>
-            <div>
-              Текст
-            </div>
-        </div>
+    </div>
+        <div class="down-button" id="DownButton">
+          <span onclick="movedown()">Scroll Down</span>
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" onclick="movedown()"><path d="M0 0h24v24H0V0z" fill="none"></path><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z" fill="aliceblue"></path></svg>
       </div>
     </div>
 
-    <div class="to-do-block">
-      <div class="icon-box">
-        <div class="iconbox-icon">
-          <span>Icon</span>
-        </div>
-        <div class="iconbox-text">
-            <h3>
-              Backend
-            </h3>
-            <div>
-              Текст
-            </div>
-        </div>
-      </div>
+    <div id="fullpage" class="fullpage">
+    <div class="section">
+
+    <div class="main-block">
+    
+      <!-- Блок с чашкой кофе -->
+      <!-- <div id="container3D"></div> -->
+      <!-- Блок с компом -->
+    
+    <div data-aos="fade-right" class="text-block">
+      <span>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque viverra ligula vel eros lobortis, ut malesuada arcu venenatis. Mauris a semper turpis, at ultrices velit. Donec sed felis magna. Sed neque nulla, bibendum non semper quis, tincidunt eget libero. Vestibulum.
+      </span>
+
+    <!-- <div class="test-block"></div>
+    <div class="test-block"></div>
+    <div class="test-block"></div>
+    <div class="test-block"></div>
+    <div class="test-block"></div> -->
+    </div>
+
+    <div class="visual-block">
+      <div data-aos="fade-left" class="computer_graphic"><object class="computer" data="static/code.html"></object></div>
+    </div>
+
+    </div>
+
+    </div>
+
+    <div class="section s2">
+        <center><h2>Test 2</h2></center>
+        <center><h2>Test 2.1</h2></center>
+        <center><h2>Test 2.2</h2></center>
+        <center><h2>Test 2.3</h2></center>
+        <center><h2>Test 2.3</h2></center>
+        <center><h2>Test 2.3</h2></center>
+        <center><h2>Test 2.3</h2></center>
+        <center><h2>Test 2.3</h2></center>
+        <center><h2>Test 2.3</h2></center>
+        <center><h2>Test 2.3</h2></center>
+        <center><h2>Test 2.3</h2></center>
+        <center><h2>Test 2.3</h2></center>
+        <center><h2>Test 2.3</h2></center>
+        <center><h2>Test 2.3</h2></center>
+        <center><h2>Test 2.3</h2></center>
+        <center><h2>Test 2.3</h2></center>
+
     </div>
     
-    <div class="to-do-block">
-      <div class="icon-box">
-        <div class="iconbox-icon">
-          <span>Icon</span>
-        </div>
-        <div class="iconbox-text">
-            <h3>
-              Системная архитектура
-            </h3>
-            <div>
-              Текст
-            </div>
-        </div>
-      </div>
+    <div class="section s3">
+      <center><h2>Test 3</h2></center>
     </div>
-
-    <div class="to-do-block">
-      <div class="icon-box">
-        <div class="iconbox-icon">
-          <span>Icon</span>
-        </div>
-        <div class="iconbox-text">
-            <h3>
-              Консультирование
-            </h3>
-            <div>
-              Текст
-            </div>
-        </div>
-      </div>
+    
+    <div class="section s4" id="fourthSection">
+      <center><h2>Test 4</h2></center>
     </div>
-
-  </section>
-
-    <div class="container">
-
-      <!-- Тут немного текста -->
-      <div>
-        <div>
-          <h2>МОИ РАБОТЫ</h2>
-          <div class="block-line"></div>
-          <div class="subtitle">
-            Здесь представлены некоторые работы, выполненные мной
-          </div>
-        </div>
-      </div>
-
-      <!-- Тут будут работы -->
-      <div>
-
-      </div>
+    
 
     </div>
+    <script type="module" src="js/main.js"></script>
 
-  <section>
+    <!-- <script src="vendors/easings.min.js"></script>
+    <script type="text/javascript" src="fullpage.js"></script> -->
+
+    <!-- scroll animations -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- fullpage -->
+    <script src="./js/fullpage.min.js"></script>
+    <scripts src="./js/fullpage.extensions.min.js"></scripts>
+
+    <!-- particles -->
+    <!-- <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>  -->
 
 
-  </section>
+    <!-- fullpage settings -->
+    <script src="./js/app.js"></script>
 
-    </main>
-    <footer>
-      <p>Сюда бы я вписал информацию об авторе и ссылки на другие сайты</p>
-    </footer>
-
+    <script>
+      function movedown() {
+        if (fullpage_api.getActiveSection()["anchor"] == "fourthPage") {
+          fullpage_api.moveTo(1);
+        }
+        else {
+          fullpage_api.moveSectionDown();
+        }
+      }
+    </script>
+    
   </body>
 </html>
