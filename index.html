@@ -2,14 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>S3CS</title>
     <link rel="stylesheet" href="./css/style.css" />
 
     <!-- scroll animations -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- fullpage -->
-    <link rel="stylesheel" href="./css/fullpage.min.css">
+    <link rel="stylesheet" href="./css/fullpage.min.css">
 
   </head>
   <body>
@@ -20,14 +20,17 @@
       </a>
     </header>
 
+    <a href="https://github.com/S3raphimCS" class="github-logo-href"><img src="./static/github-mark-white.png" class="github-logo"></a>
+
     <div class="side-bar">
       <div>
       <nav class="side-nav">
         <ul id="myMenu">
-          <li data-menuanchor="firstPage" class="active"><a href='#firstPage'>1</a></li>
-          <li data-menuanchor="secondPage"><a href='#secondPage'>2</a></li>
-          <li data-menuanchor="thirdPage"><a href='#thirdPage'>3</a></li>
-          <li data-menuanchor="fourthPage"><a href='#fourthPage'>4</a></li>
+          <li data-menuanchor="firstPageAnch" class="active"><a href='#firstPageAnch'>00</a></li>
+          <li data-menuanchor="secondPageAnch"><a href='#secondPageAnch'>01</a></li>
+          <li data-menuanchor="thirdPageAnch"><a href='#thirdPageAnch'>02</a></li>
+          <li data-menuanchor="fourthPageAnch"><a href='#fourthPageAnch'>03</a></li>
+          <li data-menuanchor="fifthPageAnch"><a href="#fifthPageAnch">04</a></li>
         </ul>
       </nav>
     </div>
@@ -38,62 +41,82 @@
     </div>
 
     <div id="fullpage" class="fullpage">
-    <div class="section">
 
-    <div class="main-block">
-    
-      <!-- Блок с чашкой кофе -->
-      <!-- <div id="container3D"></div> -->
-      <!-- Блок с компом -->
-    
-    <div data-aos="fade-right" class="text-block">
-      <span>
-        <h2>Python Backend-Developer</h2><br>
-        <p>I write code in the Python programming language. <br>I am developing a backend using the Django framework and gradually entering the backend development industry.</p><br>
-        <a href="#secondPage">About me ></a>
-      </span>
+      <div class="section s1 active">
 
-    <!-- <div class="test-block"></div>
-    <div class="test-block"></div>
-    <div class="test-block"></div>
-    <div class="test-block"></div>
-    <div class="test-block"></div> -->
-    </div>
-
-    <div class="visual-block">
-      <img class="dots_decor" src="./static/side-dots.png" alt="">
-      <div data-aos="fade-left" class="computer_graphic"><object class="computer" data="static/code.html"></object></div>
-    </div>
-
-    <img src="./static/purple_romb1.png" class="romb1">
-
-    </div>
-
-    </div>
-
-    <div class="section s2">
-        <div class="info-block section" id="secondPage">
-          <div class="greeting">
-            <h2>Hello, I'm Sergey.<br>Backend-Developer</h2>
-            <p>Backend-Developer / Python-fan / Teacher (temporary) =)</p>
-          </div>
-          <div class="info-about-me">
-            <p>
-            I write code in Python and developing a backend using the Django framework. I am gradually entering this industry. <br>
-            A fan of miniatures, outdoor activities, video games and, of course, programming. <br>
-            I am interested in the whole spectrum of the backend and want to work on ambitious projects with interesting people.
-            </p>
-          </div>
+        <div class="main-block">
+  
+      
+        <div data-aos="fade-right" class="text-block">
+          <span>
+            <h2>Python Backend-Developer</h2><br>
+            <p>I write code in the Python programming language. <br>I am developing a backend using the Django framework and gradually entering the backend development industry.</p><br>
+            <a href="#secondPage">About me ></a>
+          </span>
         </div>
-    </div>
+      <!-- <div class="test-block"></div>
+      <div class="test-block"></div>
+      <div class="test-block"></div>
+      <div class="test-block"></div>
+      <div class="test-block"></div> -->
+        
+
+        <div class="visual-block">
+          <img class="dots_decor" src="./static/side-dots.png" alt="">
+          <div data-aos="fade-left" class="computer_graphic"><object class="computer" data="static/code.html"></object></div>
+        </div>
+
+        <img src="./static/purple_romb1.png" class="romb1">
+
+        </div>
+
+      </div>
+
+      <div class="section s2" id="secondPage">
+            <img src="./static/forsite1.png" class="tphoto">
+            <img src="./static/purple_romb2.png" class="romb2">
+            <img src="./static/dark_cube2.png" class="dark-cube2">
+            <div class="coffee-block" id="container3D"></div>
+            <div class="greeting">
+              <h2>Hello, I'm Sergey.<br>Backend-Developer</h2><br>
+              <p>Backend-Developer / Python-fan / Teacher (temporary) =)</p>
+            </div>
+            <div class="info-about-me">
+              <p>
+                <br>
+              I write code in Python and developing a backend using the Django framework. I am gradually entering this industry. <br><br>
+              A fan of miniatures, outdoor activities, video games and, of course, programming. <br><br>
+              I am interested in the whole spectrum of the backend and want to work on ambitious projects with interesting people.
+              </p>
+            </div>
+      </div>
     
-    <div class="section s3">
-      <center><h2>Test 3</h2></center>
-    </div>
+      <div class="section s3" id="thirdPage">
+        <h2>My skills</h2>
+        <p>
+          The main area of my work is backend development (server side of the web)<br><br>
+          Pycharm and Django is helping me to create systems for my work. I also have to know all the related technologies that are often used in development.
+        </p>
+        <div class="technologies">
+          <div class="first-row">
+
+          </div>
+          <div class="second-row">
+
+          </div>
+
+        </div>
+      </div>
     
-    <div class="section s4" id="fourthSection">
-      <center><h2>Test 4</h2></center>
-    </div>
+      <div class="section s4" id="fourthPage">
+        <div class="slide">Slide 111111111</div> <!--data-anchor="slide1" data-anchor="slide2" data-anchor="slide3"-->
+        <div class="slide">Slide 222222222</div>
+        <div class="slide">Slide 333333333</div>
+      </div>
+
+      <div class="section s5" id="fifthPage">
+
+      </div>
     
 
     </div>
@@ -110,7 +133,7 @@
 
     <!-- fullpage -->
     <script src="./js/fullpage.min.js"></script>
-    <scripts src="./js/fullpage.extensions.min.js"></scripts>
+    <script src="./js/fullpage.extensions.min.js"></script>
 
     <!-- particles -->
     <!-- <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>  -->
@@ -121,7 +144,7 @@
 
     <script>
       function movedown() {
-        if (fullpage_api.getActiveSection()["anchor"] == "fourthPage") {
+        if (fullpage_api.getActiveSection()["anchor"] == "fifthPageAnch") {
           fullpage_api.moveTo(1);
         }
         else {

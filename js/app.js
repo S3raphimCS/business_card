@@ -1,10 +1,11 @@
 new fullpage('#fullpage', {
-    anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
+    anchors:['firstPageAnch', 'secondPageAnch', 'thirdPageAnch', 'fourthPageAnch', 'fifthPageAnch'],
     menu: '#myMenu',
     autoScrolling:true,
     scrollHorizontally: true,
-    recordHistory:false,
-    navigation:true,
+    navigation:false,
     showActiveTooltip:true,
-    credits:{enabled: false, label: 'Made with fullpage.js', position: 'right'},
+    credits:{enabled: false, label: ' ', position: 'left'},
+    bigSectionsDestination: 'null',
+    animateAnchor: true,
   });
