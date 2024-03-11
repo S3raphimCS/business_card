@@ -36,9 +36,9 @@
         </ul>
       </nav>
     </div>
-        <div class="down-button" id="DownButton">
-          <span onclick="movedown()">Scroll Down</span>
-          <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" onclick="movedown()"><path d="M0 0h24v24H0V0z" fill="none"></path><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z" fill="aliceblue"></path></svg>
+        <div class="down-button hvr-icon-down" id="DownButton">
+          <span onclick="movedown()" class="hvr-icon-down">Scroll Down</span>
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" onclick="movedown()" class="hvr-icon"><path d="M0 0h24v24H0V0z" fill="none"></path><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z" fill="aliceblue"></path></svg>
       </div>
     </div>
 
@@ -53,15 +53,9 @@
           <span>
             <h2>Python Backend-Developer</h2><br>
             <p>I write code in the Python programming language. <br>I am developing a backend using the Django framework and gradually entering the backend development industry.</p><br>
-            <a id="goToAbout" onclick="movetoabout()">About me <img src="./static/right-arrow.png" style="width: 13px; height: 13px;" id="rightarrow"></a>
+            <a id="goToAbout" onclick="movetoabout()" class="hvr-icon-forward">About me <img src="./static/right-arrow.png" style="width: 13px; height: 13px;" id="rightarrow" class="hvr-icon"></a>
           </span>
         </div>
-      <!-- <div class="test-block"></div>
-      <div class="test-block"></div>
-      <div class="test-block"></div>
-      <div class="test-block"></div>
-      <div class="test-block"></div> -->
-        
 
         <div class="visual-block">
           <img class="dots_decor" src="./static/side-dots.png" alt="">
@@ -278,9 +272,6 @@
     </div>
     <script type="module" src="js/main.js"></script>
 
-    <!-- <script src="vendors/easings.min.js"></script>
-    <script type="text/javascript" src="fullpage.js"></script> -->
-
     <!-- scroll animations -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
@@ -290,10 +281,6 @@
     <!-- fullpage -->
     <script src="./js/fullpage.min.js"></script>
     <script src="./js/fullpage.extensions.min.js"></script>
-
-    <!-- particles -->
-    <!-- <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>  -->
-
 
     <!-- fullpage settings -->
     <script src="./js/app.js"></script>
