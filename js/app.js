@@ -6,6 +6,10 @@ new fullpage('#fullpage', {
     navigation:false,
     showActiveTooltip:true,
     credits:{enabled: false, label: ' ', position: 'left'},
-    bigSectionsDestination: 'null',
     animateAnchor: true,
+    dragAndMove:true,
+    responsiveSlides:true,
+    scrollingSpeed:1000,
+    fitToSection: true,
+    fitToSectionDelay:  1000,
   });

@@ -11,10 +11,12 @@
     <!-- fullpage -->
     <link rel="stylesheet" href="./css/fullpage.min.css">
 
+    <!-- Icon -->
+    <link rel="icon" href="./static/favicon.png" type="image/x-icon">
   </head>
   <body>
     <header>
-      <a href="#">
+      <a href="https://github.com/S3raphimCS">
       <svg width="40" height="23" viewBox="0 0 90 71" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6" y="10" width="35" height="52" fill="#000000"></rect><path d="M0 0V70.338H89.521V0H0ZM19.184 53.481L12.79 47.085L19.184 40.691L25.578 34.2971C25.578 34.2971 21.681 30.4 19.184 27.903C16.687 25.406 12.79 21.509 12.79 21.509L15.987 18.3115L19.184 15.114L28.7755 24.7055L38.367 34.2971L28.7755 43.889L19.184 53.481Z" fill="aliceblue"></path><rect class="blinkit" x="45" y="44" width="29" height="8" fill="#000000"></rect></svg>
       <h2>S3CS</h2>
       </a>
@@ -43,7 +45,7 @@
     <div id="fullpage" class="fullpage">
 
       <div class="section s1 active">
-
+        <svg width="903" height="887" viewBox="0 0 903 887" fill="none" xmlns="http://www.w3.org/2000/svg" class="background-code b1"><path d="M47.2262 320.433L114.319 320.792L118.976 335.892L52.0914 336.238L47.2262 320.433Z" fill="#F4A949"></path><path d="M134.246 320.858L201.343 321.227L205.994 336.318L139.104 336.663L134.246 320.858Z" fill="#1C5F9A"></path><path d="M97.3566 353.899L164.437 354.261L169.088 369.365L102.209 369.702L97.3566 353.899Z" fill="#1C5F9A"></path><path d="M221.413 321.768L485.765 322.185L490.419 337.284L226.28 337.562L221.413 321.768Z" fill="#1C5F9A"></path><path d="M202.902 354.015L638.794 357.201L643.448 372.291L207.775 369.82L202.902 354.015Z" fill="#9C27B0"></path><path d="M478.267 521.382L894.745 524.805L899.401 539.9L483.124 537.176L478.267 521.382Z" fill="#1C5F9A"></path><path d="M177.996 354.168L194.845 354.651L199.501 369.748L182.857 369.972L177.996 354.168Z" fill="#F4A949"></path><path d="M358.89 389.3L424.034 390.501L428.68 405.6L363.757 405.092L358.89 389.3Z" fill="#F4A949"></path><path d="M299.752 487.208L316.603 487.687L321.258 502.79L304.619 503.005L299.752 487.208Z" fill="#F4A949"></path><path d="M326.155 486.923L343.001 487.404L347.649 502.497L331.026 502.73L326.155 486.923Z" fill="#F4A949"></path><path d="M107.698 387.455L222.122 388.706L226.773 403.81L112.567 403.258L107.698 387.455Z" fill="#1C5F9A"></path><path d="M335.415 421.264L449.857 422.522L454.508 437.619L340.288 437.071L335.415 421.264Z" fill="#1C5F9A"></path><path d="M175.659 487.91L290.087 489.164L294.747 504.27L180.515 503.712L175.659 487.91Z" fill="#1C5F9A"></path><path d="M342.326 520.75L456.777 521.989L461.425 537.08L347.2 536.54L342.326 520.75Z" fill="#1C5F9A"></path><path d="M208.827 454.265L424.046 456.49L428.701 471.576L213.681 470.068L208.827 454.265Z" fill="#1C5F9A"></path><path d="M236.887 388.975L351.317 390.227L355.967 405.323L241.747 404.773L236.887 388.975Z" fill="#1C5F9A"></path><path d="M78.2267 421.127L145.324 421.484L149.974 436.587L83.0959 436.92L78.2267 421.127Z" fill="#F4A949"></path><path d="M156.512 420.877L317.531 421.363L322.181 436.463L161.364 436.688L156.512 420.877Z" fill="#9C27B0"></path><path d="M433.682 456.113L745.839 455.683L750.486 470.793L438.556 471.918L433.682 456.113Z" fill="#9C27B0"></path><path d="M131.938 454.719L199.041 455.071L203.696 470.177L136.815 470.523L131.938 454.719Z" fill="#F4A949"></path><path d="M117.207 488.433L165.999 488.62L170.638 503.714L122.08 504.239L117.207 488.433Z" fill="#9C27B0"></path><path d="M275.51 520.95L324.298 521.124L328.953 536.228L280.376 536.745L275.51 520.95Z" fill="#9C27B0"></path><path d="M109.231 521.806L254.295 520.887L258.947 535.998L114.098 537.606L109.231 521.806Z" fill="#1C5F9A"></path></svg>
         <div class="main-block">
   
       
@@ -51,7 +53,7 @@
           <span>
             <h2>Python Backend-Developer</h2><br>
             <p>I write code in the Python programming language. <br>I am developing a backend using the Django framework and gradually entering the backend development industry.</p><br>
-            <a href="#secondPage">About me ></a>
+            <a id="goToAbout" onclick="movetoabout()">About me <img src="./static/right-arrow.png" style="width: 13px; height: 13px;" id="rightarrow"></a>
           </span>
         </div>
       <!-- <div class="test-block"></div>
@@ -73,6 +75,7 @@
       </div>
 
       <div class="section s2" id="secondPage">
+        <svg width="903" height="887" viewBox="0 0 903 887" fill="none" xmlns="http://www.w3.org/2000/svg" class="background-code b2"><path d="M47.2262 320.433L114.319 320.792L118.976 335.892L52.0914 336.238L47.2262 320.433Z" fill="#F4A949"></path><path d="M134.246 320.858L201.343 321.227L205.994 336.318L139.104 336.663L134.246 320.858Z" fill="#1C5F9A"></path><path d="M97.3566 353.899L164.437 354.261L169.088 369.365L102.209 369.702L97.3566 353.899Z" fill="#1C5F9A"></path><path d="M221.413 321.768L485.765 322.185L490.419 337.284L226.28 337.562L221.413 321.768Z" fill="#1C5F9A"></path><path d="M202.902 354.015L638.794 357.201L643.448 372.291L207.775 369.82L202.902 354.015Z" fill="#9C27B0"></path><path d="M478.267 521.382L894.745 524.805L899.401 539.9L483.124 537.176L478.267 521.382Z" fill="#1C5F9A"></path><path d="M177.996 354.168L194.845 354.651L199.501 369.748L182.857 369.972L177.996 354.168Z" fill="#F4A949"></path><path d="M358.89 389.3L424.034 390.501L428.68 405.6L363.757 405.092L358.89 389.3Z" fill="#F4A949"></path><path d="M299.752 487.208L316.603 487.687L321.258 502.79L304.619 503.005L299.752 487.208Z" fill="#F4A949"></path><path d="M326.155 486.923L343.001 487.404L347.649 502.497L331.026 502.73L326.155 486.923Z" fill="#F4A949"></path><path d="M107.698 387.455L222.122 388.706L226.773 403.81L112.567 403.258L107.698 387.455Z" fill="#1C5F9A"></path><path d="M335.415 421.264L449.857 422.522L454.508 437.619L340.288 437.071L335.415 421.264Z" fill="#1C5F9A"></path><path d="M175.659 487.91L290.087 489.164L294.747 504.27L180.515 503.712L175.659 487.91Z" fill="#1C5F9A"></path><path d="M342.326 520.75L456.777 521.989L461.425 537.08L347.2 536.54L342.326 520.75Z" fill="#1C5F9A"></path><path d="M208.827 454.265L424.046 456.49L428.701 471.576L213.681 470.068L208.827 454.265Z" fill="#1C5F9A"></path><path d="M236.887 388.975L351.317 390.227L355.967 405.323L241.747 404.773L236.887 388.975Z" fill="#1C5F9A"></path><path d="M78.2267 421.127L145.324 421.484L149.974 436.587L83.0959 436.92L78.2267 421.127Z" fill="#F4A949"></path><path d="M156.512 420.877L317.531 421.363L322.181 436.463L161.364 436.688L156.512 420.877Z" fill="#9C27B0"></path><path d="M433.682 456.113L745.839 455.683L750.486 470.793L438.556 471.918L433.682 456.113Z" fill="#9C27B0"></path><path d="M131.938 454.719L199.041 455.071L203.696 470.177L136.815 470.523L131.938 454.719Z" fill="#F4A949"></path><path d="M117.207 488.433L165.999 488.62L170.638 503.714L122.08 504.239L117.207 488.433Z" fill="#9C27B0"></path><path d="M275.51 520.95L324.298 521.124L328.953 536.228L280.376 536.745L275.51 520.95Z" fill="#9C27B0"></path><path d="M109.231 521.806L254.295 520.887L258.947 535.998L114.098 537.606L109.231 521.806Z" fill="#1C5F9A"></path></svg>
             <img src="./static/forsite1.png" class="tphoto">
             <img src="./static/purple_romb2.png" class="romb2">
             <img src="./static/dark_cube2.png" class="dark-cube2">
@@ -82,7 +85,7 @@
               <p>Backend-Developer / Python-fan / Teacher (temporary) =)</p>
             </div>
             <div class="info-about-me">
-              <p>
+              <br><br><p>
                 <br>
               I write code in Python and developing a backend using the Django framework. I am gradually entering this industry. <br><br>
               A fan of miniatures, outdoor activities, video games and, of course, programming. <br><br>
@@ -92,32 +95,185 @@
       </div>
     
       <div class="section s3" id="thirdPage">
-        <h2>My skills</h2>
-        <p>
-          The main area of my work is backend development (server side of the web)<br><br>
-          Pycharm and Django is helping me to create systems for my work. I also have to know all the related technologies that are often used in development.
-        </p>
+        <img src="./static/white_cube1.png" class="whitecube1">
+        <svg width="903" height="887" viewBox="0 0 903 887" fill="none" xmlns="http://www.w3.org/2000/svg" class="background-code b3"><path d="M47.2262 320.433L114.319 320.792L118.976 335.892L52.0914 336.238L47.2262 320.433Z" fill="#F4A949"></path><path d="M134.246 320.858L201.343 321.227L205.994 336.318L139.104 336.663L134.246 320.858Z" fill="#1C5F9A"></path><path d="M97.3566 353.899L164.437 354.261L169.088 369.365L102.209 369.702L97.3566 353.899Z" fill="#1C5F9A"></path><path d="M221.413 321.768L485.765 322.185L490.419 337.284L226.28 337.562L221.413 321.768Z" fill="#1C5F9A"></path><path d="M202.902 354.015L638.794 357.201L643.448 372.291L207.775 369.82L202.902 354.015Z" fill="#9C27B0"></path><path d="M478.267 521.382L894.745 524.805L899.401 539.9L483.124 537.176L478.267 521.382Z" fill="#1C5F9A"></path><path d="M177.996 354.168L194.845 354.651L199.501 369.748L182.857 369.972L177.996 354.168Z" fill="#F4A949"></path><path d="M358.89 389.3L424.034 390.501L428.68 405.6L363.757 405.092L358.89 389.3Z" fill="#F4A949"></path><path d="M299.752 487.208L316.603 487.687L321.258 502.79L304.619 503.005L299.752 487.208Z" fill="#F4A949"></path><path d="M326.155 486.923L343.001 487.404L347.649 502.497L331.026 502.73L326.155 486.923Z" fill="#F4A949"></path><path d="M107.698 387.455L222.122 388.706L226.773 403.81L112.567 403.258L107.698 387.455Z" fill="#1C5F9A"></path><path d="M335.415 421.264L449.857 422.522L454.508 437.619L340.288 437.071L335.415 421.264Z" fill="#1C5F9A"></path><path d="M175.659 487.91L290.087 489.164L294.747 504.27L180.515 503.712L175.659 487.91Z" fill="#1C5F9A"></path><path d="M342.326 520.75L456.777 521.989L461.425 537.08L347.2 536.54L342.326 520.75Z" fill="#1C5F9A"></path><path d="M208.827 454.265L424.046 456.49L428.701 471.576L213.681 470.068L208.827 454.265Z" fill="#1C5F9A"></path><path d="M236.887 388.975L351.317 390.227L355.967 405.323L241.747 404.773L236.887 388.975Z" fill="#1C5F9A"></path><path d="M78.2267 421.127L145.324 421.484L149.974 436.587L83.0959 436.92L78.2267 421.127Z" fill="#F4A949"></path><path d="M156.512 420.877L317.531 421.363L322.181 436.463L161.364 436.688L156.512 420.877Z" fill="#9C27B0"></path><path d="M433.682 456.113L745.839 455.683L750.486 470.793L438.556 471.918L433.682 456.113Z" fill="#9C27B0"></path><path d="M131.938 454.719L199.041 455.071L203.696 470.177L136.815 470.523L131.938 454.719Z" fill="#F4A949"></path><path d="M117.207 488.433L165.999 488.62L170.638 503.714L122.08 504.239L117.207 488.433Z" fill="#9C27B0"></path><path d="M275.51 520.95L324.298 521.124L328.953 536.228L280.376 536.745L275.51 520.95Z" fill="#9C27B0"></path><path d="M109.231 521.806L254.295 520.887L258.947 535.998L114.098 537.606L109.231 521.806Z" fill="#1C5F9A"></path></svg>
+        <div class="technologies-text">
+          <center><h2>My skills</h2></center><br>
+          <center><p>
+            The main area of my work is backend development (server side of the web)<br><br>
+            Pycharm and Django is helping me to create systems for my work. I also have to know all the related technologies that are often used in development.
+          </center></p><br>
+          <center><p><a onclick="movetocontact()">Contact</a> me for more information</p></center><br>
+        </div>
+      <center>
         <div class="technologies">
-          <div class="first-row">
-
+          <div class="skill-row first">
+            <div class="skill">
+              <img class='skill-image' src="./static/python-logo-only.png">
+              <span>Python</span>
+            </div>
+            <div class="skill">
+              <img class='skill-image' src="./static/django-logo-negative.png">
+              <span>Django</span>
+            </div>
+            <div class="skill">
+              <img class='skill-image' src="./static/pngegg (1).png">
+              <span>Selenium</span>
+            </div>
+            <div class="skill">
+              <img class='skill-image' src="./static/pngegg (2) (1).png">
+              <span>PyQt</span>
+            </div>
+            <div class="skill">
+              <img class='skill-image' src="./static/pngwing.com (29) (1).png">
+              <span>SQL</span>
+            </div>
+            <div class="skill">
+              <img class='skill-image' src="./static/pngegg (3).png">
+              <span>Postgres</span>
+            </div>
           </div>
-          <div class="second-row">
-
+          <div class="skill-row second">
+            <div class="skill">
+              <img class='skill-image' src="./static/pngegg (4).png">
+              <span>SQLite</span>
+            </div>
+            <div class="skill">
+              <img class='skill-image' src="./static/pngegg (5).png">
+              <span>Git</span>
+            </div>
+            <div class="skill">
+              <img class='skill-image' src="./static/pngegg (6).png">
+              <span>PyCharm</span>
+            </div>
+            <div class="skill">
+              <img class='skill-image' src="./static/pngegg (7) (1).png">
+              <span>Docker</span>
+            </div>
+            <div class="skill">
+              <img class='skill-image' src="./static/Scrapy_logo.png">
+              <span>Scrapy</span>
+            </div>
+            <div class="skill">
+              <img class='skill-image' src="./static/pngegg (8).png">
+              <span>Algorithms</span>
+            </div>
           </div>
 
         </div>
+      </center>
       </div>
     
       <div class="section s4" id="fourthPage">
-        <div class="slide">Slide 111111111</div> <!--data-anchor="slide1" data-anchor="slide2" data-anchor="slide3"-->
-        <div class="slide">Slide 222222222</div>
-        <div class="slide">Slide 333333333</div>
+        <svg width="903" height="887" viewBox="0 0 903 887" fill="none" xmlns="http://www.w3.org/2000/svg" class="background-code b4"><path d="M47.2262 320.433L114.319 320.792L118.976 335.892L52.0914 336.238L47.2262 320.433Z" fill="#F4A949"></path><path d="M134.246 320.858L201.343 321.227L205.994 336.318L139.104 336.663L134.246 320.858Z" fill="#1C5F9A"></path><path d="M97.3566 353.899L164.437 354.261L169.088 369.365L102.209 369.702L97.3566 353.899Z" fill="#1C5F9A"></path><path d="M221.413 321.768L485.765 322.185L490.419 337.284L226.28 337.562L221.413 321.768Z" fill="#1C5F9A"></path><path d="M202.902 354.015L638.794 357.201L643.448 372.291L207.775 369.82L202.902 354.015Z" fill="#9C27B0"></path><path d="M478.267 521.382L894.745 524.805L899.401 539.9L483.124 537.176L478.267 521.382Z" fill="#1C5F9A"></path><path d="M177.996 354.168L194.845 354.651L199.501 369.748L182.857 369.972L177.996 354.168Z" fill="#F4A949"></path><path d="M358.89 389.3L424.034 390.501L428.68 405.6L363.757 405.092L358.89 389.3Z" fill="#F4A949"></path><path d="M299.752 487.208L316.603 487.687L321.258 502.79L304.619 503.005L299.752 487.208Z" fill="#F4A949"></path><path d="M326.155 486.923L343.001 487.404L347.649 502.497L331.026 502.73L326.155 486.923Z" fill="#F4A949"></path><path d="M107.698 387.455L222.122 388.706L226.773 403.81L112.567 403.258L107.698 387.455Z" fill="#1C5F9A"></path><path d="M335.415 421.264L449.857 422.522L454.508 437.619L340.288 437.071L335.415 421.264Z" fill="#1C5F9A"></path><path d="M175.659 487.91L290.087 489.164L294.747 504.27L180.515 503.712L175.659 487.91Z" fill="#1C5F9A"></path><path d="M342.326 520.75L456.777 521.989L461.425 537.08L347.2 536.54L342.326 520.75Z" fill="#1C5F9A"></path><path d="M208.827 454.265L424.046 456.49L428.701 471.576L213.681 470.068L208.827 454.265Z" fill="#1C5F9A"></path><path d="M236.887 388.975L351.317 390.227L355.967 405.323L241.747 404.773L236.887 388.975Z" fill="#1C5F9A"></path><path d="M78.2267 421.127L145.324 421.484L149.974 436.587L83.0959 436.92L78.2267 421.127Z" fill="#F4A949"></path><path d="M156.512 420.877L317.531 421.363L322.181 436.463L161.364 436.688L156.512 420.877Z" fill="#9C27B0"></path><path d="M433.682 456.113L745.839 455.683L750.486 470.793L438.556 471.918L433.682 456.113Z" fill="#9C27B0"></path><path d="M131.938 454.719L199.041 455.071L203.696 470.177L136.815 470.523L131.938 454.719Z" fill="#F4A949"></path><path d="M117.207 488.433L165.999 488.62L170.638 503.714L122.08 504.239L117.207 488.433Z" fill="#9C27B0"></path><path d="M275.51 520.95L324.298 521.124L328.953 536.228L280.376 536.745L275.51 520.95Z" fill="#9C27B0"></path><path d="M109.231 521.806L254.295 520.887L258.947 535.998L114.098 537.606L109.231 521.806Z" fill="#1C5F9A"></path></svg>
+        <div class="slide presentation-block sl1" data-anchor="slide1">
+          <img src="./static/important.gif" class="important-gif">
+          <img src="./static/sphere_lg.png" class="spherelg">
+          <img src="./static/sphere_md.png" class="spheremd">
+          <center>
+          <h2>Recent Events</h2><br><br>
+          <p>Recently, several important events have occurred that have had a great impact on my professional activities.<br>
+            They had a great influence on me and my friends with whom I moved.<br>
+            <a onclick="movetoslide()">Just See ></a>
+          </p>
+          </center>
+        </div> 
+        <div class="slide presentation-block sl2" data-anchor="slide2">
+          <div class="league-hackathon">
+              <img src="./static/photo_2023-11-02_14-12-32.jpg">
+          </div>
+          <div class="league-text">
+            <img src="./static/pngwing.com (30).png" class="first-place-img">
+            <img src="./static/cubok.png" class="cubok-img">
+              <h2>Hackathon Adventure League</h2><br><br>
+              <p>In October 2023, we participated in the <a href="https://codenrock.com/contests/adventure-league-khabarovsk#/">Adventure League hackathon</a> from Sovcombank. We had to develop a corporate university system for this company.</p>
+               <p>In a team with my friends, we developed a platform using Django Rest Framework and React.</p>
+               <p>As a result of the competition, we gained a lot of knowledge, took first place, received a cash prize and also made it easier to receive an offer to Sovcombank.</p>
+          </div>
+        </div>
+        
+        <div class="slide presentation-block sl3" data-anchor="slide3">
+          <div class="telehack-hackathon">
+            <img src="./static/photo_2023-11-11_16-28-25.jpg">
+          </div>
+          <div class="telehack-text">  
+            <img src="./static/3place.png" class="thirdplace">
+            <img src="./static/urtisi.png" class="urtisi">
+            <br><br><br><br>
+            <center><h2>Telehack hackathon</h2></center><br><br>
+            <p>
+              In November 2023, we participated in the All-Russian Communications Hackathon 2023 from UrTISI.<br>
+               In <a href='https://telehack.ru/services/keys-2-prodvinutyi/'>our case</a> we had to develop software for converting measurement results of radio monitoring testing equipment.<br>
+               As a result of the competition, we honed our programming skills and took third place, because... the project turned out to be too difficult for the experts ¯\_(ツ)_/¯<br>
+               The result of the work done can be seen <a href="https://github.com/S3raphimCS/Hackathon_telehack">here</a>.</p>
+          </div>
+        </div>
+        <div class="slide presentation-block sl4" data-anchor="slide4">
+          <div class="intership">
+            <div class="intern-photo">
+              <img src="./static/fogstream.png">
+            </div>
+            <div class="intern-text">
+              <br><center><h2>Internship</h2></center><br>
+               <p>
+                 In August-September 2023, I completed a short internship at <a href="https://fogstream.ru/">Fogstream</a>, <br>which helped me gain experience and understand what direction to move in.<br>
+                 Even though it lasted only a short time, even this time helped me a lot <br>and I am very grateful to this company for this opportunity. 
+              </p>
+            </div>
+
+          </div>
+        </div>
       </div>
 
       <div class="section s5" id="fifthPage">
-
+        <div class="contacts-text">
+        <center><h2>Contacts</h2></center><br>
+        <center><p>I live at +10 UTC. Always happy to have any communication. <br>If you have interesting offers or just want to chat, you can contact me using:</p></center>
+        </div>
+        <div class="contact-block-div">
+          <div class="contact-block">
+            <div class="contact-photo">
+              <a href="https://discord.com/users/306599531934646272"><img src="./static/discord-1.png"></a>
+            </div>
+            <div class="contact-block-text">
+              <p>
+                Discord
+              </p>
+            </div>
+          </div>
+          <div class="contact-block">
+            <div class="contact-photo">
+              <a href="https://vk.com/s3raphim"><img src="./static/vk-1.png"></a>
+            </div>
+            <div class="contact-block-text">
+              <p>
+                Vk
+              </p>
+            </div>
+          </div>
+          <div class="contact-block">
+            <div class="contact-photo">
+              <a href="mailto:s3raphimcs@gmail.com"><img src="./static/gmail-1.png"></a>
+            </div>
+            <div class="contact-block-text">
+              <p>
+                Gmail
+              </p>
+            </div>
+          </div>
+          <div class="contact-block">
+            <div class="contact-photo">
+              <a href="https://t.me/S3raphimCS"><img src="./static/tg-1.png"></a>
+            </div>
+            <div class="contact-block-text">
+              <p>
+                Telegram
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-    
+    </div>
 
     </div>
     <script type="module" src="js/main.js"></script>
@@ -150,6 +306,21 @@
         else {
           fullpage_api.moveSectionDown();
         }
+      }
+    </script>
+    <script>
+      function movetoabout() {
+        fullpage_api.moveTo(2);
+      }
+    </script>
+    <script>
+      function movetoslide() {
+        fullpage_api.moveTo(4, 1);
+      }
+    </script>
+    <script>
+      function movetocontact() {
+        fullpage_api.moveTo(5);
       }
     </script>
     
